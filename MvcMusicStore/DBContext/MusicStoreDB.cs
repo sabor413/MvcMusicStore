@@ -1,13 +1,9 @@
 ﻿using MvcMusicStore.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Web;
 
 namespace MvcMusicStore.DBContext
 {
-    public class MusicStoreDB : DbContext
+    public class MusicStoreDb : DbContext
     {
         public DbSet<AlbumInfo> AlbumInfos { get; set; }
 
